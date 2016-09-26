@@ -1,0 +1,70 @@
+@charset "utf-8";
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: arial;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.item{
+    background-image: url("../images/scenebg.jpg");
+}
+.part{
+    position: absolute;    
+    font-size: 0.75em;
+    font-family: '微软雅黑';
+    color:white; 
+    width: 60%;
+    margin: 0px auto;
+}
+.part p{
+    line-height: 1.5em
+}
+.part img{
+    width: 100%;
+    position: absolute;
+}
+.partimg{
+    padding: 10px;
+    background-color: #F1F0CF;
+    box-shadow: 5px 5px 10px #666666;
+    -webkit-box-shadow: 5px 5px 10px #666666;
+    font-size: 0px;
+}
+.img-modal{
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.parttop {
+    top: 5%;
+    left: 10%;
+    width: 80%
+}
+.partbottom {
+    bottom:10%;
+    right: 15%
+}
+.fullscreenload{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #66CEFF;
+    background-image: url(../images/load.gif);
+    background-position: center center;
+    background-size: contain;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    opacity: 1; 
+    transition: all 1s ease; 
+}
