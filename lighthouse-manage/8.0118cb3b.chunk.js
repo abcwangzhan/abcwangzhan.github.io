@@ -1,1 +1,0 @@
-(this.webpackJsonp=this.webpackJsonp||[]).push([[8],{445:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return i}));var a=t(64),c=t(65),r=t(0),u=t.n(r),s=t(426),i=function(){var e=Object(s.e)();return Object(r.useEffect)((function(){c.a.getSession(a.a.AUTHORIZATION)||e.replace("/login")}),[e]),u.a.createElement(u.a.Fragment,null)}}}]);
