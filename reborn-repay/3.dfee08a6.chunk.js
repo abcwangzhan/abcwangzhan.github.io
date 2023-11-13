@@ -1,0 +1,1 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[3],{379:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return i}));var a=t(51),c=t(50),r=t(0),s=t.n(r),u=t(371),i=function(){var e=Object(u.e)();return Object(r.useEffect)((function(){c.a.getSession(a.a.AUTHORIZATION)?e.replace("/analysis"):e.replace("/login")}),[e]),s.a.createElement(s.a.Fragment,null)}}}]);
